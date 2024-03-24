@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="note-list">
+            <div class="note-options">
+                <button id="new-note" class="fa fa-plus"></button>
+            </div>
+        </div>
+        <div class="note-container">
+            <div class="note-info">
+                <label for="note-name">Name: <input id="note-name" type="text"/></label>
+                <button id="save-note" class="fa fa-floppy-o" onclick="SaveNote()"></button>
+            </div>
+            <textarea id="note-field" placeholder="Enter a note"></textarea>
+        </div>
+    </div>
+    
+</body>
+</html>
